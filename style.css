@@ -120,11 +120,10 @@ span{
 .gamer{
     margin-top: 150px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items:center ;
     text-align: center;
-    width: 90%;
-    margin: auto;
+    width: 100%;
     gap: 80px;
 
     
@@ -132,6 +131,7 @@ span{
 .gamer-info{
     text-align: right;
     padding: 20px;
+    margin-right: 150px;
    
 }
 .btn{
@@ -166,11 +166,12 @@ span{
 .all-description{
     font-size: 1.2rem;
     font-weight: 400;
-    
-   
+}
+.gamer-image{
+    margin-left: 150px;
 }
 .gamer-image img{
-    width: 1000px;
+    width: 900px;
 }
 .gamer-info h4{
     color: #534C64;
@@ -187,6 +188,8 @@ strong{
 }
 .videos-container{
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .videos{
     margin-top: 150px;
@@ -195,13 +198,14 @@ strong{
     grid-gap: 60px;
     width: 80%;
     justify-content: center;
-    margin: 10px auto;
+    align-items: center;
+    margin:auto;
     text-align: center;
 
 }
 .videos img{
-    width: 300px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
     border-radius: 8px;
     display: block;
 }
@@ -269,16 +273,15 @@ strong{
     align-items: end;
 }
 .image1{
-    width: 100%;
+    width: 450px;
 }
 .image2{
-    width: 400px;
+    width: 200px;
     height: 30%;
     text-align: center;
     position:relative;
     bottom: -80px;
     right: 80%;
-    
     margin: 0%;
 }
 .careers{
@@ -317,7 +320,7 @@ strong{
     list-style: none;
 }
 .games{
-    width: 80%;
+    width: 100%;
     margin: 150px auto;
     display: flex;
     align-items: center;
@@ -383,7 +386,7 @@ footer{
         margin: auto;
     }
     .goat-container-photos img{
-        width: 100% ;
+        width: 80% ;
     }
     .goat-container-details h3{
         font-size: 2rem;
@@ -394,14 +397,106 @@ footer{
         width: 100%;
     }
     .gamer-image img{
-        width: 100%;
+        width: 80%;
     }
     .gamer-info{
         text-align: center;
         padding: 20px;
         margin: auto;
+        margin-left: 0;
       
     }
+    .gamer-image{
+        margin-left: 0px;
+    }
+    .videos{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .instant-play{
+        margin-top: 50px;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+    .play-info{
+        width: 250px;
+        text-align: center;
+        align-items: center;
+    }
+    .play-image{
+        text-align: center;
+        align-items: center;
+    }
+    .image1{
+        width: 80%;
+    }
+    .image2{
+        width: 30%;
+        position:relative;
+        bottom: -120px;
+        right: 55%;
+        margin: 0%;
+    }
+    .careers{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        margin-right: 10px;
+    }
+    .lists{
+        flex-direction: column;
+
+    }
+    .career-photo img{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .career-info{
+        text-align: center;
+        width: 80%;
+        padding: 20px;
+    }
+    .all-title{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .all-description{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .games{
+        width: 80%;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        
+        margin: 50px auto;
+        gap: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+    .gamer-description{
+        font-size: 1rem;
+        font-weight: 400;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+    .footer-logo, .footer-description, .footer-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px;
+        justify-content:center ;
+        text-align: center;
+    }
+    .footer-policy{
+        flex-wrap: wrap;
+    }
+    
 }
 
 /* For tablet */
