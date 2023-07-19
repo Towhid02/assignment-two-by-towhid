@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+/* navbar start */
+.navber{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo-img{
+    width: 85px;
+    height: 40px;
+}
+.logo-title{
+    font-size: 2.7rem;
+    
+}
+span{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #3C354F;
+    font-size: 1.2rem;
+    
+}
+.btn-primary{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    color: #3C354F;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+/* navbar end */
+
+
+.goat-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.goat-container-details{
+    text-align: left;
+    background-image: url("images/Group\ 14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.goat-container-details h3{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.goat-container-details li{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.goat-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.goat-button{
+    display: flex;
+    gap: 10px;
+}
+.sign{
+    padding: 21px 40px;
+    background-color:#FF42A5;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 45px;
+    border: none;
+}
+.rogue{
+    background-color: #4EC5F7;
+    color: #FFF;
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.gamer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    gap: 80px;
+
+    
+}
+.gamer-info{
+    text-align: right;
+    padding: 20px;
+   margin-right: 80px;
+}
+.gamer-title{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-description{
+    font-size: 1rem;
+    font-weight: 400;
+   
+}
+.gamer-image img{
+    width: 800px;
+}
+.gamer-info h4{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+strong{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Mobile */
+@media screen and (max-width:576px) {
+    .navber{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+    }
+    .goat-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+    }
+    .goat-container-photos img{
+        width: 100% ;
+    }
+    .goat-container-details h3{
+        font-size: 2rem;
+    }
+    .gamer{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .gamer-image img{
+        width: 100%;
+    }
+    .gamer-info{
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+      
+    }
+}
+
+/* For tablet */
+/* @media screen and (min-width:577px) and (max-width:992px) {
+    .navber{
+        flex-direction: column;
+        padding: 0px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
